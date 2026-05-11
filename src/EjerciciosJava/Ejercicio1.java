@@ -1,3 +1,5 @@
+package EjerciciosJava;
+
 import java.util.Scanner;
 
 public class Ejercicio1 {
@@ -22,7 +24,7 @@ public class Ejercicio1 {
         int max;
         int min;
 
-        // Mínimo
+
         if (a < b && a < c) {
             min = a;
         } else if (b < a && b < c) {
@@ -32,7 +34,7 @@ public class Ejercicio1 {
         }
         System.out.println("El numero mas chico es: " + min);
 
-        // Máximo
+
         if (a > b && a > c) {
             max = a;
         } else if (b > a && b > c) {
